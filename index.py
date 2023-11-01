@@ -1,8 +1,7 @@
-# Definindo a variável para armazenar o nome e a experiência do herói
 nome = input("Informe o nome do herói: ")
-xp = int(input("Informe a experiência do herói: "))  # Experiência do herói
+xp = int(input("Informe a experiência do herói: "))  
 
-# Usando estrutura de decisão para determinar o nível do herói
+
 if xp < 1000:
     nivel = "Ferro"
 elif 1000 < xp <= 2000:
